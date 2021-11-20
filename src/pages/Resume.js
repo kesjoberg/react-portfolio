@@ -1,4 +1,5 @@
 import React from 'react';
+import ksResume from '../assets/karna_sjoberg_resume_web_dev.pdf'
 
 
 export default function Resume() {
@@ -35,6 +36,9 @@ export default function Resume() {
             <p>I have been interested in technology since my childhood when my father taught me how to write Basic code. I was inspired to look into a career in web development by using a variety of educational websites and applications while my students and I were doing distance learning in 2020. I would love to continue to support education in the future through educational technology. </p>
           </div>
         </div>  
+        <div>
+          <a href={ksResume} target="_blank" rel="noreferrer noopener">Click Here to Download My Resume</a>
+        </div>
     </div>
 
   );

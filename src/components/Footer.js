@@ -7,7 +7,7 @@ function Footer() {
       width: '100%',
       height: '10%',
       display: 'flex',
-      justifyContent: 'space-around',
+      justifyContent: 'center',
       // padding: '1%',
       alignContent: 'center', 
       listStyleType: 'none',
@@ -15,6 +15,8 @@ function Footer() {
     a: {
       color: 'white',
       fontSize: '30px',
+      marginLeft: '30px',
+      marginRight: '30px'
     },
     
     

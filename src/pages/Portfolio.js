@@ -11,20 +11,30 @@ export default function Portfolio() {
       height: '50%',
     },
     card: {
-      width: '18rem'
+      width: '25rem',
+      boxShadow: '10px 10px 5px grey',
+      margin: '2rem'
+    },
+    header: {
+      margin: 'auto',
+      color: '#3f87a6',
     }
   }
   return (
     <>
-      <div className="col-12 d-flex">
-        <h2>Examples of My Work</h2>
+      <div className="d-flex">
+        <h2 style={styles.header} >Examples of My Work</h2>
       </div> 
-      <div className="d-flex flex-wrap align-contents-center justify-space-between p-2 m-2">
+      <div className="d-flex flex-wrap justify-content-center justify-space-between p-2 m-2">
         <div className="card" style={styles.card}>
           <img src={Meal} className="card-img-top" alt="credit Kara Eads on Unsplash"/>
           <div className="card-body">
             <h5 className="card-title">Meal Planning App</h5>
-            <p className="card-text">First group project. Tech Used: </p>
+            <p className="card-text">Group Project <br/>
+             Tech Used: <br/>
+             jQuery<br/>
+             Choreographer.js <br/>
+             Spoonacular API</p>
           </div>
           <div className="card-body">
             <a href="https://kembo001.github/mealPlan/" target="_blank" rel="noreferrer noopener" className="card-link">Github Repo</a>
@@ -35,7 +45,10 @@ export default function Portfolio() {
           <img src={Tech} className="card-img-top" alt="screenshot of deployed code"/>
           <div className="card-body">
             <h5 className="card-title">Tech Blog App</h5>
-            <p className="card-text"> Tech Used: </p>
+            <p className="card-text"> Tech Used: <br/>
+             Node.js <br/>
+             MySQL<br/>
+            </p>
           </div>
           <div className="card-body">
             <a href="https://github.com/kesjoberg/tech-blog" target="_blank" rel="noreferrer noopener" className="card-link">Github Repo</a>
