@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/react-portfolio/static/js/main.ada92ccb.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ada92ccb.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.37b83d9e.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.37b83d9e.js.map",
+    "static/css/2.383c0125.chunk.css": "/react-portfolio/static/css/2.383c0125.chunk.css",
+    "static/js/2.102a0973.chunk.js": "/react-portfolio/static/js/2.102a0973.chunk.js",
+    "static/js/2.102a0973.chunk.js.map": "/react-portfolio/static/js/2.102a0973.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/react-portfolio/static/css/2.383c0125.chunk.css.map",
+    "static/js/2.102a0973.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.102a0973.chunk.js.LICENSE.txt",
+    "static/media/bookstore.a723a79a.jpg": "/react-portfolio/static/media/bookstore.a723a79a.jpg",
+    "static/media/employee_tracker.db200104.jpg": "/react-portfolio/static/media/employee_tracker.db200104.jpg",
+    "static/media/image_kes.a6c545ed.jpg": "/react-portfolio/static/media/image_kes.a6c545ed.jpg",
+    "static/media/karna_sjoberg_resume_web_dev.6b856d22.pdf": "/react-portfolio/static/media/karna_sjoberg_resume_web_dev.6b856d22.pdf",
+    "static/media/meal-planning.410abe58.jpg": "/react-portfolio/static/media/meal-planning.410abe58.jpg",
+    "static/media/tech-blog.3f240327.jpg": "/react-portfolio/static/media/tech-blog.3f240327.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37b83d9e.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.102a0973.chunk.js",
+    "static/js/main.ada92ccb.chunk.js"
+  ]
+}
