@@ -52,6 +52,7 @@ function Contact() {
     setName('');
     setEmail('');
     setMessage('');
+    setErrorMessage('');
     alert(`Hello ${name}, thank you for reaching out!`);
   };
 
@@ -96,7 +97,7 @@ function Contact() {
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="ml-5 text-danger">{errorMessage}</p>
         </div>
       )}
     </div>

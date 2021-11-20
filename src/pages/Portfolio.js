@@ -48,6 +48,8 @@ export default function Portfolio() {
             <p className="card-text"> Tech Used: <br/>
              Node.js <br/>
              MySQL<br/>
+             Express-Handlebars <br/>
+             Sequelize <br/>
             </p>
           </div>
           <div className="card-body">
@@ -59,7 +61,12 @@ export default function Portfolio() {
           <img src={Bookstore} className="card-img-top" alt="screenshot of deployed code"/>
           <div className="card-body">
             <h5 className="card-title">Bookstore App</h5>
-            <p className="card-text"> Tech Used: </p>
+            <p className="card-text"> Tech Used: <br/>
+            Node<br/>
+             Express <br/>
+             Express-Handlebars <br/>
+             Sequelize <br/>
+             MySQl2</p>
           </div>
           <div className="card-body">
             <a href="https://github.com/kesjoberg/book-store" target="_blank" rel="noreferrer noopener" className="card-link">Github Repo</a>
@@ -70,11 +77,16 @@ export default function Portfolio() {
           <img src={Employee} className="card-img-top" alt="screenshot of deployed code"/>
           <div className="card-body">
             <h5 className="card-title">Employee Management System</h5>
-            <p className="card-text"> Tech Used: Node</p>
+            <p className="card-text"> Tech Used:<br/>
+             Node<br/>
+             Express <br/>
+             Inquirer <br/>
+             Console.Table <br/>
+             MySQl2</p>
           </div>
           <div className="card-body">
             <a href="https://github.com/kesjoberg/employee-tracker" target="_blank" rel="noreferrer noopener" className="card-link">Github Repo</a>
-            
+            <a href="https://watch.screencastify.com/v/JDmBnuizdgnDxwhtuDxC" target="_blank" rel="noreferrer noopener" className="card-link">Video Demo</a>
           </div>
       </div>
       </div>
