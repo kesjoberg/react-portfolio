@@ -3,6 +3,8 @@ import Bookstore from '../assets/bookstore.jpg';
 import Meal from '../assets/meal-planning.jpg';
 import Employee from '../assets/employee_tracker.jpg';
 import Tech from '../assets/tech-blog.jpg';
+import Team from '../assets/sample-team-screenshot.jpg';
+import Weather from '../assets/weather.jpg';
 
 export default function Portfolio() {
   const styles={
@@ -60,7 +62,7 @@ export default function Portfolio() {
         <div className="card" style={styles.card}>
           <img src={Bookstore} className="card-img-top" alt="screenshot of deployed code"/>
           <div className="card-body">
-            <h5 className="card-title">Bookstore App</h5>
+            <h5 className="card-title">Bookstore App Group Project</h5>
             <p className="card-text"> Tech Used: <br/>
             Node<br/>
              Express <br/>
@@ -88,7 +90,37 @@ export default function Portfolio() {
             <a href="https://github.com/kesjoberg/employee-tracker" target="_blank" rel="noreferrer noopener" className="card-link">Github Repo</a>
             <a href="https://watch.screencastify.com/v/JDmBnuizdgnDxwhtuDxC" target="_blank" rel="noreferrer noopener" className="card-link">Video Demo</a>
           </div>
-      </div>
+        </div>
+        <div className="card" style={styles.card}>
+          <img src={Team} className="card-img-top" alt="screenshot of deployed code"/>
+          <div className="card-body">
+            <h5 className="card-title">Team Builder App</h5>
+            <p className="card-text"> Tech Used: <br/>
+            Node<br/>
+            Inquirer <br/>
+             Jest <br/>
+             Bootstrap</p>
+          </div>
+          <div className="card-body">
+            <a href="https://github.com/kesjoberg/team-profile-generator" target="_blank" rel="noreferrer noopener" className="card-link">Github Repo</a>
+            <a href="https://watch.screencastify.com/v/qRblzn07UIHviVqi7f9x" target="_blank" rel="noreferrer noopener" className="card-link">Video Demo</a>
+          </div>
+        </div>
+        <div className="card" style={styles.card}>
+          <img src={Weather} className="card-img-top" alt="screenshot of deployed code"/>
+          <div className="card-body">
+            <h5 className="card-title">Weather Dashboard</h5>
+            <p className="card-text"> Tech Used: <br/>
+             WeatherAPI<br/>
+             JavaScript <br/>
+             Local Storage 
+            </p>
+          </div>
+          <div className="card-body">
+            <a href="https://github.com/kesjoberg/weather-dashboard" target="_blank" rel="noreferrer noopener" className="card-link">Github Repo</a>
+            <a href="https://kesjoberg.github.io/weather-dashboard/" target="_blank" rel="noreferrer noopener" className="card-link">Deployed Code</a>
+          </div>
+        </div>
       </div>
     </>
 

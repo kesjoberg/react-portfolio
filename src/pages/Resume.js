@@ -25,15 +25,35 @@ export default function Resume() {
   }
   return (
     <div className="p-2">
-      <h2 style={styles.heading}>Resume</h2>
+      <h2 style={styles.heading}>Learned Technologies</h2>
         <div className='row'>
           <div className='col-4'>
-             
+            <h4 style={styles.heading}>Front-end</h4>
           </div> 
           <div className='col-8' >
-            <p>My name is Karna Sjoberg and I have worked in education for 23 years. I spent the majority of my years teaching middle school math and science. My last 3 year I was a 5th grade classroom teacher. In addition to my experience in the classroom, I have been an instructional/content coach. I worked with teams of teachers or school leaders to analyze data to plan instruction or school improvement. </p>
-              
-            <p>I have been interested in technology since my childhood when my father taught me how to write Basic code. I was inspired to look into a career in web development by using a variety of educational websites and applications while my students and I were doing distance learning in 2020. I would love to continue to support education in the future through educational technology. </p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>Handlebars</li>
+            </ul>
+          </div>
+        </div>  
+        <div className='row'>
+          <div className='col-4'>
+            <h4 style={styles.heading}>Back-end</h4>
+          </div> 
+          <div className='col-8' >
+            <ul>
+              <li>APIs</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>MySQL Sequelize</li>
+              <li>Mongo Mongoose</li>
+            </ul>
           </div>
         </div>  
         <div>

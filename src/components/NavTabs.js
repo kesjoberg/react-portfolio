@@ -4,10 +4,10 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   const style={
-    nav: {
-      height: '10%',
-      background: 'linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)',
-    },
+    // nav: {
+    //   height: '10%',
+    //   background: 'linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)',
+    // },
     ul: {
       display: 'flex',
       padding: '10px',
@@ -24,7 +24,7 @@ function NavTabs({ currentPage, handlePageChange }) {
    
   }
   return (
-    <div style={style.nav}>
+    <div >
       <ul className="nav nav-tabs" style={style.ul}>
        
         <li className="nav-item">

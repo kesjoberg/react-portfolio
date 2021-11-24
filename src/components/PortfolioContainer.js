@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+// import NavTabs from './NavTabs';
 import Header from './Header';
 import Footer from './Footer';
 import About from '../pages/About';
@@ -10,7 +10,7 @@ import Resume from '../pages/Resume';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  // TODO: Add a comment describing the functionality of this method
+
   const renderPage = () => {
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -33,14 +33,18 @@ export default function PortfolioContainer() {
     bg:{
       background:  '#c3e4f1',
       height: '100%',
+    },
+    nav:{
+      justifyContent: 'space-between',
     }
   }
 
   return (
     <div style={styles.bg}>
+      <section>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange}/> 
       
-      <Header/> 
-        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} /> 
+      </section>
       
       {renderPage()}
       <Footer />

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import './style.css';
+
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
@@ -10,6 +10,7 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
+
   
 
   const [errorMessage, setErrorMessage] = useState('');
@@ -29,24 +30,21 @@ function Contact() {
       setMessage(inputValue);
     }
   };
+  const checkEmail = () =>{
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
+      return;
+  }
+}
 
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !name) {
-      setErrorMessage('Email or name is invalid');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-    }
-    // if (!checkPassword(password)) {
-    //   setErrorMessage(
-    //     `Choose a more secure password for the account: ${name}`
-    //   );
-    //   return;
-    // }
+    checkEmail();
+    
+    
 
     // If successful, we want to clear out the input after registration.
     setName('');
@@ -55,6 +53,8 @@ function Contact() {
     setErrorMessage('');
     alert(`Hello ${name}, thank you for reaching out!`);
   };
+
+
 
   return (
     <div>
@@ -68,6 +68,7 @@ function Contact() {
             onChange={handleInputChange}
             type="text"
             placeholder="name"
+            onBlur={() => {name? setErrorMessage(''): setErrorMessage('Name is required!') }}
           />
         </div>
         <div className='row mb-2 ml-5 mr-5' >
@@ -78,6 +79,8 @@ function Contact() {
             onChange={handleInputChange}
             type="email"
             placeholder="email"
+            id="emailInput"
+            onBlur={() => {setErrorMessage(''); email?  checkEmail(): setErrorMessage('Email is required!') }}
           />
         </div>
         <div className='row mb-2 ml-5 mr-5'>
@@ -88,6 +91,7 @@ function Contact() {
             onChange={handleInputChange}
             type="text"
             placeholder="message"
+            onBlur={() => {message? setErrorMessage(''): setErrorMessage('Message is required!') }}
           />
          </div>
         
