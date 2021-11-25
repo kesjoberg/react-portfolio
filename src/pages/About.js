@@ -16,8 +16,8 @@ export default function About() {
     },
    img:{
      display: 'block',
-     maxWidth: '180px',
-     maxHeight: '420px',
+     maxWidth: '162px',
+     maxHeight: '378px',
      height: 'auto',
      width: 'auto',
    }
