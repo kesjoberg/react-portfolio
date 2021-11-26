@@ -23,7 +23,7 @@ Please reach out to me if you would like to contribute to my project by email.
 If you have any questions, please contact me at sjobergkarna@gmail.com or on GitHub with this link [kesjoberg](https://github.com/kesjoberg).
 
 ## Screenshot of my deployed paged
-![Screenshot of a working page from example]()
+![Screenshot of a working page from example](./src/assets/potfolio_screenshot.jpg)
 
 
 ## Link to GitHub Repository
