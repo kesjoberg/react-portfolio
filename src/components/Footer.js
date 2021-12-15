@@ -29,7 +29,7 @@ function Footer() {
         <ul style={style.nav}>
             <li> <a style={style.a} href="https://github.com/kesjoberg" rel="noreferrer noopener"><i style={style.img} class="fab fa-github"></i></a></li>
             <li><a style={style.a} href="https://www.linkedin.com/in/karna-sjoberg-1a9092213/" rel="noreferrer noopener"><i style={style.img} class="fab fa-linkedin"></i></a></li>
-            <li><a style={style.a} href="https://stackoverflow.com/users/16662050/karna-sjoberg" rel="noreferrer noopener"><i style={style.img} class="fab fa-stack-overflow"></i></a></li>
+            <li><a style={style.a} href="mailto:kesjoberg@gmail.com" rel="noreferrer noopener"><i style={style.img} class="fas fa-envelope-square"></i></a></li>
         </ul>    
      </nav>     
  </footer>
